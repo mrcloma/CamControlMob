@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/camEnderecoRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dataAberturaRelatorio"
+        android:text="Endereço: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/camNomeRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/camEnderecoRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="Nome da cêmera: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camEnderecoRelatorio" />
+
+    <TextView
+        android:id="@+id/statusCamRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/camNomeRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="Status: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/camNomeRelatorio" />
+
+    <TextView
+        android:id="@+id/dataAberturaRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/it2mRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="Data Abertura: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusCamRelatorio" />
+
+    <TextView
+        android:id="@+id/it2mRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fmanRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="IT2M: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataAberturaRelatorio" />
+
+    <TextView
+        android:id="@+id/fmanRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vmanutRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="FMAN: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/it2mRelatorio" />
+
+    <TextView
+        android:id="@+id/vmanutRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/problemaRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="Vmanut: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fmanRelatorio" />
+
+    <TextView
+        android:id="@+id/problemaRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/acaoRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="Problema: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vmanutRelatorio" />
+
+    <TextView
+        android:id="@+id/acaoRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dataRegistroRelatorio"
+        android:layout_marginTop="8dp"
+        android:text="Ação: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/problemaRelatorio" />
+
+    <TextView
+        android:id="@+id/dataRegistroRelatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="8dp"
+        android:text="Data de registro: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acaoRelatorio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

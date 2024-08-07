@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_status"
+        android:icon="@drawable/ic_status_black_24dp_foreground"
+        android:title="@string/title_status" />
+
+    <item
+        android:id="@+id/navigation_eventos"
+        android:icon="@drawable/ic_eventos_black_24dp_foreground"
+        android:title="@string/title_eventos" />
+
+    <item
+        android:id="@+id/navigation_relatorio"
+        android:icon="@drawable/ic_relatorio_black_24dp_foreground"
+        android:title="@string/title_relatorio" />
+
+    <item
+        android:id="@+id/navigation_cameras"
+        android:icon="@drawable/ic_camera_black_24dp_foreground"
+        android:title="@string/title_camera" />
+
+</menu>
